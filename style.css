@@ -1,12 +1,73 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15em;
+    margin-top: 10em;
+}
+
+header {
+    width: 100%;
+    height: 70px;
 }
 
 .search-bar {
-    display: block;
+    display: flex;
+    flex: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    border: solid;
+    background-color: transparent;
+    border-color: #d3d3d3;
+    border-radius: 10px;
+    width: 50em;
+}
+
+.submit-button {
+    display: flex;
+    flex: 100%;
+    margin-left: 40em;
+    float: left;
+    margin-top: 10px;
+}
+
+.Im-feeling-lucky-button {
+    display: flex;
+    flex: 100%;
+    margin-left: 50em;
+    margin-top: 10px;
+    
+
+}
+
+.nav-bar {
+    display: flex;
+    list-style-type: none;
+    width: auto;
+    margin-top: 8px;
+    justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 30px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div .footer {
+    background-color: grey;
 }
